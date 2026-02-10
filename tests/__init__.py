@@ -1,2 +1,9 @@
+# ./tests/__init__.py
 
-__all__ = []
+from .test_ltr_evaluation import TestLtrEvaluation
+from .test_regex import TestRegEx
+
+__all__ = [
+    'TestLtrEvaluation',
+    'TestRegEx'
+]
